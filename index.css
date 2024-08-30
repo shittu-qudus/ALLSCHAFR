@@ -1,0 +1,171 @@
+button{
+    border: 5230px;
+    background-color: rgb(73, 73, 207);
+    border-radius: 60px;
+    border-width: 250px;
+    width: 70%;
+    height: 50px;
+}
+div{
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  li {
+    float: inline-start;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    text-decoration: none;
+  }
+  .box1{
+    display: flexbox;
+    position: relative;
+    right: 300px;
+  }
+  .box2{
+    display: flexbox;
+    position: relative;
+    left: 200px;
+  }
+.formbox{
+  position: relative;
+  display: flexbox;
+  left: 230px;
+  top: -1070px;
+  float: right;
+}
+.topbox{
+  position: relative;
+  left: 160px;
+  background-color: rgba(211,211,211,0.196);
+  top: -1100px;
+  width: 500px;
+
+}
+input[type=text]{
+  padding: 20px;
+  border: 1px solid;
+  width: 200px;
+  background-color: rgba(211,211,211,0.196);
+}
+input[type=password] {
+  padding: 20px;
+  border: 1px solid;
+  width: 200px;
+  background-color: rgba(211,211,211,0.196);
+}
+input[type=password] {
+  padding: 20px;
+  border: 1px solid;
+  width: 200px;}
+  select[name=country]{
+    padding: 20px;
+  border: 1px solid;
+  width: 200px ;
+  background-color: rgba(211,211,211,0.196);
+  }
+  select[name=options]{
+    padding: 20px;
+  border: 1px solid;
+  width: 240px ;
+  background-color: rgba(211,211,211,0.196);
+  }
+  input[type=date] {
+    padding: 20px;
+    border: 1px solid;
+    width: 200px;
+    background-color: rgba(211,211,211,0.196);
+  }
+  input[type=email] {
+    padding: 20px;
+    border: 1px solid;
+    width: 200px;
+    background-color: rgba(211,211,211,0.196);
+  }
+  input[type=password] {
+    padding: 20px;
+    border: 1px solid;
+    width: 200px;
+    background-color: rgba(211,211,211,0.196);
+    
+  }
+  input[for=number] {
+    padding: 20px;
+    border: 1px solid;
+    width: 200px;
+    background-color: rgba(211,211,211,0.196);
+    
+  }
+  select[name=gender]{
+    padding: 20px;
+  border: 1px solid;
+  width: 500px;
+  background-color: rgba(211,211,211,0.196);
+  }
+  ul{
+    float: inline-end;
+    position: relative;
+  top: -1130px;
+  }
+i{
+  color: blue;
+  word-spacing: normal;
+  margin-right: 30px; /* Adds space to the right of the icon */
+  margin-left: 30px; /* Adds space to the left of the icon */
+}
+h4{
+  word-spacing: normal;
+  margin-right: 40px; 
+  margin-left: 40px
+  ;
+}
+@media screen and (max-width:600px){
+  body{
+    margin: 10px;
+    padding: 5px;
+  }
+  .box1{
+    display: flexbox;
+    position: relative;
+    right: 100px;
+  }
+  .box2{
+    display: flexbox;
+    position: relative;
+    left: -100px;
+    top: -647px;
+  }
+   
+  button{
+    border: 5230px;
+    background-color: rgb(73, 73, 207);
+    border-radius: 60px;
+    border-width: 250px;
+    width: 90%;
+    height: 50px;
+    top: -610px;
+    left: -120px;
+position: relative;
+}
+img {
+  visibility: hidden;
+}
+h1{
+  visibility: hidden; 
+}
+  
+}
+    
+    
+    
+
